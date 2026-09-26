@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const pharmacy_controller_js_1 = require("../controllers/pharmacy.controller.js");
+const router = (0, express_1.Router)();
+router.get('/medicines', pharmacy_controller_js_1.getMedicines);
+router.post('/medicines', pharmacy_controller_js_1.addMedicine);
+router.post('/medicines/:id/dispense', pharmacy_controller_js_1.dispenseMedicine);
+router.patch('/medicines/:id/stock', pharmacy_controller_js_1.updateStock);
+exports.default = router;

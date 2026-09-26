@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const bed_controller_js_1 = require("../controllers/bed.controller.js");
+const router = (0, express_1.Router)();
+router.get('/', bed_controller_js_1.getBeds);
+router.post('/:id/allocate', bed_controller_js_1.allocateBed);
+router.post('/:id/discharge', bed_controller_js_1.dischargeBed);
+router.patch('/:id/status', bed_controller_js_1.updateBedStatus);
+exports.default = router;

@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const laboratory_controller_js_1 = require("../controllers/laboratory.controller.js");
+const router = (0, express_1.Router)();
+router.get('/tests', laboratory_controller_js_1.getLabTests);
+router.get('/orders', laboratory_controller_js_1.getLabOrders);
+router.post('/orders', laboratory_controller_js_1.createLabOrder);
+router.patch('/orders/:id', laboratory_controller_js_1.updateLabOrderStatus);
+exports.default = router;
