@@ -121,5 +121,9 @@ The application includes a self-contained in-memory fallback that works immediat
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License.
+<img width="1885" height="897" alt="image" src="https://github.com/user-attachments/assets/d2c70081-2dfb-48da-84af-dade9acd3950" />
+<img width="1883" height="898" alt="image" src="https://github.com/user-attachments/assets/5ad61466-5a73-4e42-9e29-f783eb515bcc" />
+<img width="1907" height="909" alt="image" src="https://github.com/user-attachments/assets/ab8d7ead-f024-4d74-98de-1c7e60da4f23" />
+<img width="1896" height="901" alt="image" src="https://github.com/user-attachments/assets/7652f546-730b-4247-afda-b4e575949e71" />
+
+
